@@ -264,7 +264,9 @@ a{
     color: #FFFFFF;
 }
 .hero__content{
-    width: 70%;
+    width: 100%;
+    border: none;
+    outline: none;
     font-family: poppins;
     font-size: 16px;
     font-weight: 500;
@@ -280,7 +282,6 @@ a{
     border: none;
     button{
         border: none;
-        outline: none;
     }
 }
 .hero__btn:hover{
@@ -313,12 +314,14 @@ a{
     text-align: right;
 }
 .box__input{
+    width: 100%;
     background: transparent;
     border: none;
     font-weight: 500;
     color: #8B8E99;
     margin-left: 10px;
     margin-right: 140px;
+    outline: none;
 }
 .boxes{
     display: flex;
