@@ -37,6 +37,7 @@ a{
     transition: .5s; 
 }
 .navbar__item:hover{
+    color: #fff;
     transform: scale(1.03);
 }
 /* .navbar__item:first-child{
